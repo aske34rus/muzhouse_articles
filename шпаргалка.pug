@@ -1,0 +1,111 @@
+
+
+// Изображение слева (icon значит ширина auto, но max-wight: 100%)
+br
+.form-group
+  .cell_img.cell_img_left.cell_img
+    .img
+      img.icon(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+    .text
+      | text
+
+
+// Изображение справа
+br
+.form-group
+  .cell_img.cell_img_right.cell_img
+    .img
+      img.icon(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+    .text
+      | text
+    .img
+      img.icon(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+
+// Большое изображение (на мобилке во всю ширину, на десктопе как с применением offset - 275px)
+br
+.form-group.big-image
+  .cell_img.cell_img_left.cell_img
+    .img
+      img.icon(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+    .text
+      | text
+
+
+
+// Изображение слева со смещением
+
+br
+.form-group.offset-left
+  .cell_img.cell_img_left.cell_img
+    .img
+      img(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+    .text
+      | text
+
+
+
+
+// Изображение справа со смещением справа
+
+br
+.form-group.offset-right
+  .cell_img.cell_img_right.cell_img
+    .img
+      img(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+    .text
+      | text
+    .img
+      img(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png' alt='')
+
+
+
+// Изображение вписано в отступ слева
+.form-group.image-abroad-left
+  .cell_img.cell_img_left.cell_img
+    .img
+      img.icon(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-.png')
+    .text
+      | text
+
+
+// Иконка вписано в отступ слева
+br
+.form-group.image-abroad-left.no-float-sm.img-auto-xs
+  .cell_img.cell_img_left.cell_img
+    .img.va-top 
+      img.icon.pull-right(src='image/catalog/articles/Eugine/48-64/svg/Shape_1.svg')
+    .text.va-top 
+      | text
+
+
+// Загловок
+#zag2.h2 text
+
+// List с большой иконкой (изображением)
+p.icon-list
+  sapn.list.text-center
+    img(src='image/catalog/articles/Eugine/48-64/kak-vybrat-bayan-')
+  span.text
+    | text
+
+// Отступ равный размеру list в icon-list
+.icon-list-padding.fix-list
+
+// List с маленькой иконкой (изображением) фиксированной ширины и отрицательным отступом
+ul.fix-list.abroad-list
+  li.icon-list
+    span.list
+      img(src='image/catalog/articles/Eugine/list-dash.png' alt='')
+    span.text
+      | text
+
+
+// Лист для нумерации
+ul.fix-list
+  li.text-list
+    span.list
+      | 1
+    span.text
+      | text
+br
+

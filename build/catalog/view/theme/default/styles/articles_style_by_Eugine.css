@@ -557,3 +557,6 @@ img {
 @media (max-width: 767px) {
   .table-xs {
     display: table; } }
+
+.inline-block {
+  display: inline-block; }

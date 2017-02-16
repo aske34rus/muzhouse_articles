@@ -138,6 +138,10 @@ MuzHouse Article
   }
 }
 
+.icon {
+  max-width: 100%;
+}
+
 
 /*!
  * Typography
@@ -563,6 +567,9 @@ img {
     vertical-align: top;
     width: 85px;
     padding-top: 0.5em;
+    &.check{
+      padding-top: 0;
+    }
     padding-bottom: 0.5em;
     @media (max-width: $screen-xs-max) {
       width: 48px;

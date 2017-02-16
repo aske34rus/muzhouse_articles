@@ -105,6 +105,9 @@ MuzHouse Article
       .wrapper-outer .image-big-abroad-right {
         margin-right: -175px; } }
 
+.icon {
+  max-width: 100%; }
+
 /*!
  * Typography
  */
@@ -421,6 +424,8 @@ img {
     padding-bottom: 0.5em;
     text-align: right;
     padding-right: 12px; }
+    .icon-list > .list.check {
+      padding-top: 0; }
     @media (max-width: 767px) {
       .icon-list > .list {
         width: 48px; } }

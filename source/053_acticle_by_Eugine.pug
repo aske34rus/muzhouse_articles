@@ -1,0 +1,24 @@
+doctype html
+html.no-js(lang='')
+  head
+    include jade/head
+  body.information-information.information-information 
+    include jade/top
+    .container
+      .row
+        // /header.tpl
+        .col-xs-12.main-zone
+          // ! * eugine_article
+          article.eugine_article.row
+            include jade/nav
+            .col-sm-9.col-lg-10
+              .wrapper-outer
+                .wrapper-inner
+                  // ! * ARTICLE CONTENT
+                  include jade/053
+                  // ! * END ARTICLE CONTENT
+                // wrapper-inner
+              // wrapper-outer
+          // eugine_article
+        .clear
+    include jade/bottom

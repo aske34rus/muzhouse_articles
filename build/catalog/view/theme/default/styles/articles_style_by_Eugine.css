@@ -426,6 +426,10 @@ img {
     padding-right: 12px; }
     .icon-list > .list.check {
       padding-top: 0; }
+    .icon-list > .list.circle {
+      padding-top: 4px; }
+    .icon-list > .list.ring {
+      padding-top: 0; }
     @media (max-width: 767px) {
       .icon-list > .list {
         width: 48px; } }
@@ -563,5 +567,38 @@ img {
   .table-xs {
     display: table; } }
 
+@media (max-width: 991px) {
+  .table-sm {
+    display: table; } }
+
 .inline-block {
   display: inline-block; }
+
+.table {
+  display: table; }
+
+.table-cell {
+  display: table-cell; }
+
+.border-box {
+  display: block;
+  position: relative;
+  border: 1px solid #FEBDAC;
+  padding: 18px 35px;
+  margin: 15px 8.33333333%; }
+  .border-box .bb-img-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -23px;
+    margin-left: -24px;
+    background: #fff; }
+
+@media (min-width: 992px) {
+  .crutch-1 {
+    margin-right: 0;
+    margin-left: -26px; } }
+
+@media (max-width: 767px) {
+  .width40-xs {
+    max-width: 40%; } }

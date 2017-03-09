@@ -570,6 +570,12 @@ img {
     &.check{
       padding-top: 0;
     }
+    &.circle{
+      padding-top: 4px;
+    }
+    &.ring{
+      padding-top: 0;
+    }
     padding-bottom: 0.5em;
     @media (max-width: $screen-xs-max) {
       width: 48px;
@@ -771,7 +777,50 @@ img {
     display: table;
   }
 }
+@media (max-width: $screen-sm-max) {
+  .table-sm{
+    display: table;
+  }
+}
 
 .inline-block{
   display: inline-block;
+}
+.table{
+  display: table;
+}
+.table-cell{
+  display: table-cell;
+}
+
+
+.border-box{
+  display: block;
+  position: relative;
+  border: 1px solid #FEBDAC;
+  padding: 18px 35px ;
+  margin: 15px 8.33333333%;
+  .bb-img-left{ 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -23px;
+    margin-left: -24px;
+    background: #fff;
+  }
+}
+
+
+@media (min-width: $screen-md-min) {
+  .crutch-1{
+    margin-right: 0;
+    margin-left: -26px;
+  }
+}
+
+
+@media (max-width: $screen-xs-max) {
+  .width40-xs{
+    max-width: 40%;
+  }
 }

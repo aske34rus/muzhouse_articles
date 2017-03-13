@@ -44,6 +44,7 @@ MuzHouse Article
 }
 
 
+
 .dev {
   border: 3px dashed red;
   margin: 15px auto;
@@ -567,14 +568,13 @@ img {
     vertical-align: top;
     width: 85px;
     padding-top: 0.5em;
-    &.check{
+    &.check,
+    &.star,
+    &.ring{
       padding-top: 0;
     }
     &.circle{
       padding-top: 4px;
-    }
-    &.ring{
-      padding-top: 0;
     }
     padding-bottom: 0.5em;
     @media (max-width: $screen-xs-max) {
@@ -718,12 +718,20 @@ img {
     width: 32px;
   }
 }
+.fix-list2 {
+  .list {
+    width: 40px;
+  }
+}
 
 .abroad-list {
   @media(min-width: $screen-md-min){
     margin-left: -84px !important;
     &.fix-list {
       margin-left: -32px !important;
+    }
+    &.fix-list2 {
+      margin-left: -40px !important;
     }
   }
 }
@@ -816,7 +824,14 @@ img {
     margin-right: 0;
     margin-left: -26px;
   }
-}
+
+  .crutch-2{
+    margin-right: 0px;
+    margin-left: -20px;
+  }
+
+} // media
+
 
 
 @media (max-width: $screen-xs-max) {

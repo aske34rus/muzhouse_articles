@@ -240,7 +240,7 @@ MuzHouse Article
     }
   }
   .brand-color {
-    color: #fa5e31;
+    color: $brand-color;
   }
 }
 
@@ -560,6 +560,24 @@ img {
 
 /* icon-list */
 
+ul.list-marker{
+  >li{
+    list-style: none;
+    &:before{
+      content: '';
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      background-color: $brand-color;
+      width: 6px;
+      height: 6px;
+      line-height: 0px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
 
 .icon-list {
   position: relative;
@@ -815,26 +833,7 @@ img {
   }
 }
 
-@media (max-width: $screen-xs-max) {
-  .table-xs{
-    display: table;
-  }
-}
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  .table-sm{
-    display: table;
-  }
-}
 
-.inline-block{
-  display: inline-block;
-}
-.table{
-  display: table;
-}
-.table-cell{
-  display: table-cell;
-}
 
 
 .border-box{
@@ -890,4 +889,27 @@ img {
 
 .after-none:after{
   display: none;
+}
+
+
+
+@media (max-width: $screen-xs-max) {
+  .table-xs{
+    display: table;
+  }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .table-sm{
+    display: table;
+  }
+}
+
+.inline-block{
+  display: inline-block !important;
+}
+.table{
+  display: table;
+}
+.table-cell{
+  display: table-cell;
 }

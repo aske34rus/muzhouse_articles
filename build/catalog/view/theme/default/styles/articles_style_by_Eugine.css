@@ -666,3 +666,10 @@ ul.list-marker > li {
 
 .table-cell {
   display: table-cell; }
+
+.left-border {
+  border-left: 1px solid #fa5e31;
+  padding-left: 15px; }
+  @media (min-width: 992px) {
+    .left-border {
+      margin-left: -15px; } }

@@ -913,3 +913,12 @@ ul.list-marker{
 .table-cell{
   display: table-cell;
 }
+
+
+.left-border {
+  border-left: 1px solid $brand-color;
+  padding-left: 15px;
+  @media (min-width: $screen-md-min) {
+    margin-left: -15px; 
+  }
+}

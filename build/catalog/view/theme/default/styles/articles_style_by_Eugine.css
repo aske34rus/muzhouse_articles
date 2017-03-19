@@ -626,14 +626,6 @@ ul.list-marker > li {
     margin-left: -24px;
     background: #fff; }
 
-@media (min-width: 992px) {
-  .crutch-1 {
-    margin-right: 0;
-    margin-left: -26px; }
-  .crutch-2 {
-    margin-right: 0px;
-    margin-left: -20px; } }
-
 @media (max-width: 767px) {
   .width40-xs {
     max-width: 40%; } }
@@ -673,3 +665,18 @@ ul.list-marker > li {
   @media (min-width: 992px) {
     .left-border {
       margin-left: -15px; } }
+
+@media (min-width: 992px) {
+  .crutch-1 {
+    margin-right: 0;
+    margin-left: -26px; }
+  .crutch-2 {
+    margin-right: 0px;
+    margin-left: -20px; }
+  .crutch-3 {
+    padding-left: 15px; }
+  .crutch-4 {
+    left: -8px;
+    position: relative; }
+  .crutch-4 > li > .list {
+    width: 30px; } }

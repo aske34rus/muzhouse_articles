@@ -853,18 +853,7 @@ ul.list-marker{
 }
 
 
-@media (min-width: $screen-md-min) {
-  .crutch-1{
-    margin-right: 0;
-    margin-left: -26px;
-  }
 
-  .crutch-2{
-    margin-right: 0px;
-    margin-left: -20px;
-  }
-
-} // media
 
 
 
@@ -922,3 +911,33 @@ ul.list-marker{
     margin-left: -15px; 
   }
 }
+
+
+
+@media (min-width: $screen-md-min) {
+  .crutch-1{
+    margin-right: 0;
+    margin-left: -26px;
+  }
+
+  .crutch-2{
+    margin-right: 0px;
+    margin-left: -20px;
+  }
+
+  .crutch-3{
+    padding-left: 15px;
+  }
+
+  .crutch-4{
+    left: -8px;
+    position: relative;
+  }
+
+  .crutch-4{
+    >li>.list{
+      width: 30px;
+    }
+  }
+
+} // media

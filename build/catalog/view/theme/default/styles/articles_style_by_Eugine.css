@@ -679,4 +679,10 @@ ul.list-marker > li {
     left: -8px;
     position: relative; }
   .crutch-4 > li > .list {
-    width: 30px; } }
+    width: 30px; }
+  .crutch-5 {
+    padding-right: 30px !important; }
+  .crutch-6 {
+    padding-left: 15px !important; }
+  .crutch-7 {
+    width: 45% !important; } }

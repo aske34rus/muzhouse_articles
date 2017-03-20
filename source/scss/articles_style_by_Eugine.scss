@@ -916,9 +916,20 @@ ul.list-marker{
 
 
 
+@media (max-width: $screen-xs-max){
+  .va-center-xs{
+    text-align: center !important;
+  }
+  .width-xs-auto{
+    width: auto !important;
+  }
+}
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
   .va-center-sm{
     text-align: center !important;
+  }
+  .width-sm-auto{
+    width: auto !important;
   }
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max){
@@ -930,10 +941,7 @@ ul.list-marker{
 
 
 .br {
-  height: 0;
-  overflow: hidden;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 
@@ -982,6 +990,11 @@ ul.list-marker{
     padding-top: 13px;
   }
 
+
+  .crutch-11 {
+    padding-right: 40px !important;
+  }
+
 } // media
 
 @media (min-width: $screen-sm-min) {
@@ -990,3 +1003,10 @@ ul.list-marker{
   }
 
 }
+
+@media (min-width: $screen-lg-min) {
+  .crutch-10 {
+    margin-bottom: -30px;
+  }
+
+} // media

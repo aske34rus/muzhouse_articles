@@ -322,27 +322,27 @@ img {
     display: none; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .float-md .cell_img > .text {
+  .float-md > .cell_img > .text {
     display: block; }
-  .float-md .cell_img_left > .img {
+  .float-md > .cell_img_left > .img {
     float: left; }
-  .float-md .cell_img_right > .img {
+  .float-md > .cell_img_right > .img {
     float: right; }
-  .float-md .cell_img_right > .img:last-child {
+  .float-md > .cell_img_right > .img:last-child {
     display: none; }
-  .float-md .cell_img_right > .img:first-child {
+  .float-md > .cell_img_right > .img:first-child {
     display: block; } }
 
 @media (min-width: 1200px) {
-  .float-lg .cell_img > .text {
+  .float-lg > .cell_img > .text {
     display: block; }
-  .float-lg .cell_img_left > .img {
+  .float-lg > .cell_img_left > .img {
     float: left; }
-  .float-lg .cell_img_right > .img {
+  .float-lg > .cell_img_right > .img {
     float: right; }
-  .float-lg .cell_img_right > .img:last-child {
+  .float-lg > .cell_img_right > .img:last-child {
     display: none; }
-  .float-lg .cell_img_right > .img:first-child {
+  .float-lg > .cell_img_right > .img:first-child {
     display: block; } }
 
 .va-top {
@@ -650,6 +650,10 @@ ul.list-marker > li {
   .table-sm {
     display: table; } }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .table-md {
+    display: table; } }
+
 .inline-block {
   display: inline-block !important; }
 
@@ -670,7 +674,13 @@ ul.list-marker > li {
   .va-center-xs {
     text-align: center !important; }
   .width-xs-auto {
-    width: auto !important; } }
+    width: auto !important; }
+  .width-xs-half {
+    max-width: 50% !important; }
+  .width-xs-65 {
+    max-width: 65px !important; }
+  .width-xs-50 {
+    max-width: 50px !important; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .va-center-sm {
@@ -684,6 +694,9 @@ ul.list-marker > li {
 
 .br {
   padding-bottom: 1em; }
+
+.br-half {
+  padding-bottom: 0.5em; }
 
 @media (min-width: 992px) {
   .crutch-1 {
@@ -717,3 +730,17 @@ ul.list-marker > li {
 @media (min-width: 1200px) {
   .crutch-10 {
     margin-bottom: -30px; } }
+
+@media (min-width: 992px) {
+  .crutch-12 {
+    margin-right: -100px; } }
+
+@media (max-width: 1199px) {
+  .crutch-13 {
+    max-width: 60px !important; } }
+
+@media (max-width: 767px) {
+  .crutch-14 {
+    font-size: 1.6em !important; }
+  .crutch-15 {
+    margin-right: 3px !important; } }

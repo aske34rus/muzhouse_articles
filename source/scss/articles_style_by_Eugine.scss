@@ -413,19 +413,19 @@ img {
 
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   .float-md {
-    .cell_img > .text {
+    >.cell_img > .text {
       display: block
     }
-    .cell_img_left > .img {
+    >.cell_img_left > .img {
       float: left;
     }
-    .cell_img_right > .img {
+    >.cell_img_right > .img {
       float: right;
     }
-    .cell_img_right > .img:last-child {
+    >.cell_img_right > .img:last-child {
       display: none;
     }
-    .cell_img_right > .img:first-child {
+    >.cell_img_right > .img:first-child {
       display: block;
     }
   }
@@ -433,19 +433,19 @@ img {
 
 @media (min-width: $screen-lg-min) {
   .float-lg {
-    .cell_img > .text {
+    >.cell_img > .text {
       display: block
     }
-    .cell_img_left > .img {
+    >.cell_img_left > .img {
       float: left;
     }
-    .cell_img_right > .img {
+    >.cell_img_right > .img {
       float: right;
     }
-    .cell_img_right > .img:last-child {
+    >.cell_img_right > .img:last-child {
       display: none;
     }
-    .cell_img_right > .img:first-child {
+    >.cell_img_right > .img:first-child {
       display: block;
     }
   }
@@ -892,6 +892,11 @@ ul.list-marker{
     display: table;
   }
 }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .table-md{
+    display: table;
+  }
+}
 
 .inline-block{
   display: inline-block !important;
@@ -923,6 +928,15 @@ ul.list-marker{
   .width-xs-auto{
     width: auto !important;
   }
+  .width-xs-half{
+    max-width: 50% !important;
+  }
+  .width-xs-65{
+    max-width: 65px !important;
+  }
+  .width-xs-50{
+    max-width: 50px !important;
+  }
 }
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
   .va-center-sm{
@@ -942,6 +956,10 @@ ul.list-marker{
 
 .br {
   padding-bottom: 1em;
+}
+
+.br-half {
+  padding-bottom: 0.5em;
 }
 
 
@@ -979,6 +997,8 @@ ul.list-marker{
   .crutch-5 {
     padding-right: 30px !important;
   }
+
+
   .crutch-6 {
     padding-left: 15px !important;
   }
@@ -1008,5 +1028,24 @@ ul.list-marker{
   .crutch-10 {
     margin-bottom: -30px;
   }
+} // media
 
+@media (min-width: $screen-md-min) {
+  .crutch-12 {
+        margin-right: -100px;
+  }
+} // media
+
+@media (max-width: $screen-md-max) {
+  .crutch-13 {
+    max-width: 60px !important;
+  }
+} 
+@media (max-width: $screen-xs-max) {
+  .crutch-14 {
+    font-size: 1.6em !important;
+  }
+  .crutch-15 {
+    margin-right: 3px !important;
+  }
 } // media

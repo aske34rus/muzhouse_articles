@@ -599,7 +599,7 @@ ul.list-marker > li {
       display: inline-block;
       width: 25px;
       height: 25px;
-      line-height: 30px;
+      line-height: 28px;
       background-color: #fa7124;
       color: #fff;
       border-radius: 30px;
@@ -714,6 +714,8 @@ ul.list-marker > li {
     width: 30px; }
   .crutch-5 {
     padding-right: 30px !important; }
+  .crutch-16 {
+    padding-right: 25px !important; }
   .crutch-6 {
     padding-left: 15px !important; }
   .crutch-7 {
@@ -743,4 +745,6 @@ ul.list-marker > li {
   .crutch-14 {
     font-size: 1.6em !important; }
   .crutch-15 {
-    margin-right: 3px !important; } }
+    margin-right: 3px !important; }
+  .crutch-17 {
+    margin-right: 15px !important; } }
